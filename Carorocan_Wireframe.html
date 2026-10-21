@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YUKI_K.Beauty</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0 20px 20px; line-height: 1.5; }
+    header { padding-top: 12px; }
+    .topbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+    .logo { width: 44px; height: 44px; border: 2px solid #333; text-align: center; line-height: 44px; font-weight: bold; }
+    .topbar form { display: flex; flex: 1 1 300px; gap: 8px; }
+    .topbar input[type="search"] { flex: 1; padding: 8px 14px; border-radius: 20px; border: 1px solid #333; }
+    #home { border: 2px solid #333; border-radius: 20px; padding: 60px 20px; text-align: center; background: #f3e9f7; }
+    table { width: 100%; margin: 10px 0; }
+    td { vertical-align: top; width: 33%; }
+    figure { display: inline-block; margin: 10px; vertical-align: top; }
+    textarea, input[type="text"], input[type="email"], input[type="tel"] { max-width: 100%; }
+    iframe { max-width: 100%; }
+  </style>
+</head>
+<body>
+
+  <header id="top">
+    <div class="topbar">
+      <h1>YUKI_K.Beauty</h1>
+
+      <form action="#" method="get">
+        <input type="search" name="q" placeholder="Search products">
+        <label for="price-filter">Price:</label>
+        <select id="price-filter" name="price">
+          <option value="all">All prices</option>
+          <option value="low">Under 2,000</option>
+          <option value="mid">500 to 1,000</option>
+          <option value="high">Over 500</option>
+        </select>
+        <button type="submit">Search</button>
+      </form>
+
+      <button type="button">&#9825; Add to Cart</button>
+    </div>
+
+    <nav>
+      <a href="#home">home</a> |
+      <a href="#Products">Products</a> |
+      <a href="#Skincare">Skincare</a> |
+      <a href="#Make-up">Make-up</a> |
+      <a href="#cart">Cart</a> |
+      <a href="#checkout">Checkout</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Yuki_K.beauty</h2>
+      <p>Korean Skincare and Make-up Now Available here in the Philippines</p>
+      <a href="#Products"><button type="button">Shop Now</button></a>
+    </section>
+    <hr>
+
+
+  <hr>
+    <section id="Products">
+      <h2>Products</h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <td>
+            <figure>
+              <img src="Anua.jpg" alt="Anua Soothing Toner" width="300" height="300">
+              <figcaption><strong>Anua</strong> - Heartleaf Water.</figcaption>
+            </figure>
+            <h3> Anua Soothing Toner</h3>
+            <p>Hydrates and calms irritated,sensitive skin.</p>
+            <p><strong>1,499.00</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+
+          <td>
+            <figure>
+              <img src="B.O.Jtoner.jpg" alt="Beauty of joseon Ginseng Essence Water" width="300" height="300">
+              <figcaption><strong>Beauty of joseon</strong> - Ginseng Essence Water.</figcaption>
+            </figure>
+            <h3> Beauty of joseon Ginseng Essence Water </h3>
+            <p>Refreshing,deep hydrating liquid booster that wakes up dull and tired skin.</p>
+            <p><strong>1,199.00</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+
+          <td>
+            <figure>
+              <img src="toner medicube.avif" alt="azelaic acid niacinamide clear toner" width="300" height="300">
+              <figcaption><strong>medicube</strong> - azelaic acid  clear toner</figcaption>
+            </figure>
+            <h3> medicube azelaic acid  clear toner</h3>
+            <p>ingredients that help regulate sebum production while providing hydration and promoting an even skin texture.</p>
+            <p><strong>1,299.00</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+          <small>Note: These placeholder images can be replaced with real product photos.</small>
+        </tr>
+      </table>
+      </hr>
+    </section>
+
+   <hr>
+    <section id="Make-up">
+      <h2>Make-up</h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <td>
+            <h3> Foundation</h3>
+            <p>Full coverage and light weight</p>
+            <p><strong>999.00</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+
+          <td>
+            <h3>blush</h3>
+            <p>Soft Pinch Luminous Powder Blush</p>
+            <p><strong>335.00</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+
+          <td>
+            <h3>Lipstick</h3>
+            <p>Waterprof and long lasting</p>
+            <p><strong>548.00</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <br>
+      <a href="#Make-up"></a>
+    </section>
+    </hr>
+    <hr>
+    <section id="Skincare">
+      <h2>Skincare</h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <td>
+            <h3> Ampule</h3>
+            <p>shrink enlarged pores and refine rough texture</p>
+            <p><strong>1,300.00</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+
+          <td>
+            <h3> moisturizer</h3>
+            <p> helps improve the appearance of dryness,<br>
+               fine lines, and dull skin while delivering<br>
+                a healthy glow and smooth finish.</p>
+            <p><strong>1,350.00</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+
+          <td>
+            <h3>lipmask</h3>
+            <p>Waterprof and long lasting</p>
+            <p><strong>1,480.00</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <a href="#Skincare"></a>
+    </section>
+    </hr>
+
+
+    <hr>
+    <section id="cart">
+      <h2>Your Cart</h2>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Qty</th>
+            <th>Subtotal</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Foundation</td>
+            <td>1,800.00</td>
+            <td><input type="number" min="1" max="20" value="2"></td>
+            <td>3,600.00</td>
+            <td><button type="button">Remove</button></td>
+          </tr>
+          <tr>
+            <td>lipmask</td>
+            <td>1,480.00</td>
+            <td><input type="number" min="1" max="20" value="1"></td>
+            <td>1,480.00</td>
+            <td><button type="button">Remove</button></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3"><strong>Total</strong></td>
+            <td colspan="2"><strong>5,080.00</strong></td>
+          </tr>
+        </tfoot>
+      </table>
+      <br>
+      <a href="#checkout"><button type="button">Proceed to Checkout</button></a>
+    </section>
+    <hr>
+
+ 
+    <section id="checkout">
+      <h2>Checkout</h2>
+      <form action="#" method="post">
+
+        <fieldset>
+          <legend>Shipping Details</legend>
+          <p>
+            <label for="fullname">Full name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+          </p>
+          <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </p>
+          <p>
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="0917 123 4567">
+          </p>
+          <p>
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="4" cols="40" required></textarea>
+          </p>
+          <p>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" list="cities">
+            <datalist id="cities">
+              <option value="Taguig">
+              <option value="Makati">
+              <option value="Manila">
+              <option value="Quezon City">
+              <option value="Pasig">
+            </datalist>
+          </p>
+          <p>
+            <label for="delivery-date">Delivery date:</label>
+            <input type="date" id="delivery-date" name="delivery_date">
+          </p>
+          <p>
+            <label for="delivery-option">Delivery option:</label>
+            <select id="delivery-option" name="delivery_option">
+              <option value="standard">Standard</option>
+              <option value="express">Express</option>
+              <option value="pickup">Store Pick-up</option>
+            </select>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Payment Method</legend>
+          <p>
+            <input type="radio" id="pay-card" name="payment" value="card" checked>
+            <label for="pay-card">Credit / Debit Card</label>
+          </p>
+          <p>
+            <input type="radio" id="pay-cod" name="payment" value="cod">
+            <label for="pay-cod">Cash on Delivery</label>
+          </p>
+          <p>
+            <input type="radio" id="pay-wallet" name="payment" value="ewallet">
+            <label for="pay-wallet">E-Wallet</label>
+          </p>
+        </fieldset>
+
+        <p>
+          <input type="checkbox" id="gift" name="extras" value="gift-wrap">
+          <label for="gift">Gift wrap</label>
+          <input type="checkbox" id="receipt" name="extras" value="receipt">
+          <label for="receipt">Include receipt</label>
+        </p>
+        <p>
+          <input type="checkbox" id="agree" name="agree" value="yes" required>
+          <label for="agree">I agree to the <a href="#terms-info">Terms &amp; Conditions</a></label>
+        </p>
+
+        <button type="submit">Place Order</button>
+        <button type="reset">Clear</button>
+      </form>
+    </section>
+    <hr>
+   <section>
+      <h3>Leave a Review</h3>
+      <form action="#" method="post" enctype="multipart/form-data">
+        <p>
+          <label for="rev-name">Name:</label>
+          <input type="text" id="rev-name" name="rev_name" required>
+        </p>
+        <p>
+          <label for="rating">Rating (1 to 5):</label>
+          <input type="range" id="rating" name="rating" min="1" max="5" value="5">
+        </p>
+        <p>
+          <label for="rev-text">Your review:</label><br>
+          <textarea id="rev-text" name="rev_text" rows="4" cols="40" required></textarea>
+        </p>
+        <p>
+          <label for="rev-photo">Photo (optional):</label>
+          <input type="file" id="rev-photo" name="rev_photo" accept="image/*">
+        </p>
+        <button type="submit">Submit Review</button>
+      </form>
+    </section>
+    <hr>
+
+    <section id="links">
+      <h2>Useful Links</h2>
+      <ul>
+        <li><a href="https://www.openstreetmap.org/" target="_blank" rel="noopener">OpenStreetMap</a></li>
+        <li><a href="https://maps.google.com/" target="_blank" rel="noopener">Google Maps</a></li>
+        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener">Yuki_K.Beauty on Facebook</a></li>
+        <li><a href="#top">Back to top</a></li>
+      </ul>
+    </section>
+
+
+    <section id="terms-info">
+      <h2>Terms &amp; Conditions</h2>
+      <details>
+        <summary>Read the terms</summary>
+        <ol>
+          <li>Returns: Unused items can be returned within 7 days with the receipt.</li>
+          <li>Delivery: Orders are delivered on the date and option selected at checkout.</li>
+          <li>Payment: Payment is collected when the order is placed or on delivery.</li>
+        </ol>
+      </details>
+    </section>
+
+  </main>
+
+  <footer>
+    <hr>
+    <p>
+      <a href="#">About Us</a> |
+      <a href="#contact">Contact</a> |
+      <a href="#">Shipping Policy</a> |
+      <a href="#">Returns</a>
+    </p>
+    <p>&copy; 2026 Yuki_K.Beauty. Michaella Sheryn E. Carorocan.</p>
+  </footer>
+
+</body>
+</html>
